@@ -191,8 +191,9 @@ Same seed + epoch = same shuffle, every time, every platform.
 |---------|-------------|------|
 | [certifiable-inference](https://github.com/williamofai/certifiable-inference) | Deterministic inference engine | [inference.speytech.com](https://inference.speytech.com) |
 | **certifiable-training** | Deterministic training engine | [training.speytech.com](https://training.speytech.com) |
+| [certifiable-data](https://github.com/williamofai/certifiable-data) | Deterministic data pipeline | — |
 
-Together, `certifiable-inference` + `certifiable-training` provide a complete deterministic ML pipeline for safety-critical systems.
+Together, `certifiable-data` + `certifiable-training` + `certifiable-inference` provide a complete deterministic ML pipeline for safety-critical systems.
 
 ## Why This Matters
 
