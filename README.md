@@ -1,7 +1,7 @@
 # certifiable-training
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/williamofai/certifiable-training)
-[![Tests](https://img.shields.io/badge/tests-10%2F10%20passing-brightgreen)](https://github.com/williamofai/certifiable-training)
+[![Tests](https://img.shields.io/badge/tests-223%20passing-brightgreen)](https://github.com/williamofai/certifiable-training)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue)](LICENSE)
 [![MISRA Compliance](https://img.shields.io/badge/MISRA--C-2012-blue)](docs/misra-compliance.md)
 
