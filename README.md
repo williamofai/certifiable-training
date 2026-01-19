@@ -223,6 +223,25 @@ This implementation is designed to support certification under:
 
 For compliance packages and certification assistance, contact below.
 
+## Deep Dives
+
+Want to understand the engineering principles behind certifiable-training?
+
+**Determinism & Reproducibility:**
+- [Bit-Perfect Reproducibility: Why It Matters and How to Prove It](https://speytech.com/insights/bit-perfect-reproducibility/)
+- [The ML Non-Determinism Problem](https://speytech.com/insights/ml-nondeterminism-problem/)
+- [From Proofs to Code: Mathematical Transcription in C](https://speytech.com/insights/mathematical-proofs-to-code/)
+
+**Audit & Verification:**
+- [Cryptographic Execution Tracing and Evidentiary Integrity](https://speytech.com/insights/cryptographic-proof-execution/)
+
+**Safety-Critical Foundations:**
+- [The Real Cost of Dynamic Memory in Safety-Critical Systems](https://speytech.com/insights/dynamic-memory-safety-critical/)
+- [Closure, Totality, and the Algebra of Safe Systems](https://speytech.com/insights/closure-totality-algebra/)
+
+**Production ML Architecture:**
+- [A Complete Deterministic ML Pipeline for Safety-Critical Systems](https://speytech.com/ai-architecture/deterministic-ml-pipeline/)
+
 ## Contributing
 
 We welcome contributions from systems engineers working in safety-critical domains. See [CONTRIBUTING.md](CONTRIBUTING.md).
