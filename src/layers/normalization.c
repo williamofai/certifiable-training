@@ -84,7 +84,6 @@ ct_batchnorm_config_t ct_batchnorm_config_default(uint32_t num_features)
         .num_features = num_features,
         .epsilon = CT_NORM_EPSILON_DEFAULT,
         .momentum = CT_NORM_MOMENTUM_DEFAULT,
-        .affine = true,
         .track_running_stats = true
     };
     return cfg;
@@ -330,7 +329,6 @@ ct_layernorm_config_t ct_layernorm_config_default(uint32_t normalized_shape)
     ct_layernorm_config_t cfg = {
         .normalized_shape = normalized_shape,
         .epsilon = CT_NORM_EPSILON_DEFAULT,
-        .affine = true
     };
     return cfg;
 }
