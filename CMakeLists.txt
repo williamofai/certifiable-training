@@ -29,14 +29,15 @@ set(TRAINING_SOURCES
     src/training/forward.c
     src/training/backward.c
     src/training/optimizer.c
-    src/training/scheduler.c
     src/training/permutation.c
+    src/training/scheduler.c
 )
 
+# Layer implementations (Phase 2)
 set(LAYER_SOURCES
+    src/layers/activation.c
     src/layers/linear.c
     src/layers/conv2d.c
-    src/layers/activation.c
     src/layers/normalization.c
 )
 
