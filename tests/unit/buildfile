@@ -1,0 +1,20 @@
+tests = exe{test_backward test_bit_identity test_compensated test_forward test_merkle test_optimizer test_permutation test_primitives test_prng test_reduction}
+
+exe{test_backward}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_bit_identity}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_compensated}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_forward}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_merkle}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_optimizer}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_permutation}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_primitives}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_prng}: c{test_backward} ../../src/liba{certifiable_training}
+exe{test_reduction}: c{test_backward} ../../src/liba{certifiable_training}
+
+$tests:
+{
+  c.coptions += -UNDEBUG
+  test = true
+}
+
+./: $tests
