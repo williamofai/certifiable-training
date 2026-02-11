@@ -1,9 +1,48 @@
-# Build artifacts
-build/
+.bdep/
+
+# Local default options files.
+#
+.build2/local/
+
+# Compiler/linker output.
+#
+*.d
+*.t
+*.i
+*.i.*
+*.ii
+*.ii.*
 *.o
-*.a
+*.obj
+*.gcm
+*.pcm
+*.ifc
 *.so
 *.dylib
+*.dll
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.exe
+*.exe.dlls/
+*.exe.manifest
+*.pc
+
+# Build2 symlinks exes from build dir to src dir for convenient
+examples/train_xor
+examples/verify_step
+tests/unit/test_backward
+tests/unit/test_bit_identity
+tests/unit/test_compensated
+tests/unit/test_forward
+tests/unit/test_merkle
+tests/unit/test_optimizer
+tests/unit/test_permutation
+tests/unit/test_primitives
+tests/unit/test_prng
+tests/unit/test_reduction
 
 # Editor files
 *.swp

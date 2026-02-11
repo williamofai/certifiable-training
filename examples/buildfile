@@ -1,0 +1,13 @@
+exes = exe{train_xor verify_step}
+
+./: ../src/
+
+exe{train_xor}: c{train_xor} ../src/liba{certifiable_training}
+exe{verify_step}: c{verify_step} ../src/liba{certifiable_training}
+
+$exes:
+{
+  c.libs += -lm
+}
+
+./: $exes
